@@ -1,0 +1,15 @@
+Package: roxydocs
+Title: Documentation cpp11-generated wrapper functions
+Version: 0.0.0.9000
+Authors@R: 
+    person("Nicolas", "Bennett", email = "nicolas@cynkra.com", role = c("aut", "cre"))
+Description: Experimental package for documenting cpp11-generated wrapper functions using a new roxygen tag.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+    roxygen2
+LinkingTo: 
+    cpp11
+SystemRequirements: C++11
