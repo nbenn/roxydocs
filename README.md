@@ -4,10 +4,12 @@
 # roxydocs
 
 In order to add documentation to [{cpp11}](https://cpp11.r-lib.org)
-wrapper functions, generated using \[cpp11::cpp_register()\], this
-experimental package adds a [{roxygen2}](https://roxygen2.r-lib.org)
-tag, `@documents`, which can be used to specify one (or several)
-functions which are associated with an existing block of documentation.
+wrapper functions, generated using
+[cpp11::cpp_register()](https://cpp11.r-lib.org/reference/cpp_register.html),
+this experimental package adds a
+[{roxygen2}](https://roxygen2.r-lib.org) tag, `@documents`, which can be
+used to specify one (or several) functions which are associated with an
+existing block of documentation.
 
 Mimicking the style of documentation where functions with explicit
 `@rdname` tags are associated with a `NULL`-terminated dummy block as
